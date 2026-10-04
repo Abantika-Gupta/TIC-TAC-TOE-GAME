@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("naturepic.jpg");
+    background-size: cover;
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1vmin;
+}
+.box{
+    height: 19vmin;
+    width: 19vmin;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.5rem black;
+    font-size: 9vmin;
+    color: #b0413e;
+    background-color:#8a8ead;
+}
+#reset{
+    padding: 0.8rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: white;
+    border-radius: 0.5rem;
+    border: none;
+}
+.new-game{
+    padding: 0.8rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: white;
+    border-radius: 0.5rem;
+    border: none;
+}
+#msg{
+    color:red;
+    font-size: 8vmin;
+}
+.msg-container{
+    height: 30vmin;
+}
+.hide{
+    display: none;
+}
+#rewind{
+    padding: 0.8rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: white;
+    border-radius: 0.5rem;
+    border: none;
+}
